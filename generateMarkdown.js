@@ -13,7 +13,7 @@ return `# Table of Contents
 7. [Contributions](#Contributions)
 8. [Test](#Test)
 
-# ${data.title}
+# ${data.projectTitle}
 # Details
 ${data.details}
 # Installation

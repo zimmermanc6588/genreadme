@@ -1,5 +1,5 @@
-const fs = require("fs");
-const inquirer = require("inquirer");
+const fs = require(`fs`);
+const inquirer = require(`inquirer`);
 const generateMarkdown = require('./generateMarkdown.js');
 
 
@@ -25,8 +25,8 @@ const questions = [
     },
     {
         type:'input',
-        name:'benefits',
-        message:'What are some benefits for the use of your project?',
+        name:'installation',
+        message:'What are the steps for installation?',
     },
     {
         type:'lnput',
@@ -47,7 +47,7 @@ const questions = [
 function init() {
     inquirer.prompt(questions).then((data) => {
         console.log(data)
-    fs.writeFile('GeneratedREADME/GeneratedREADME.md', generateMarkdown(data),(err) => err? console.error(err) : console.log("Success!"))})
+    fs.writeFile('GenerateREADME/GenerateREADME.md', generateMarkdown(data),(err) => err? console.error(err) : console.log("You did it!"))})
  }
 
 init();

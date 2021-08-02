@@ -1,6 +1,6 @@
 # Table of Contents
 
-1. [Username](#Github username)
+1. [Username](#Username)
 2. [Repo](#Repo)
 3. [ProjectTitle](#Title)
 4. [Benefits](#Benefits)
